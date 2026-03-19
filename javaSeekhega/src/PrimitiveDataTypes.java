@@ -20,6 +20,13 @@ public class PrimitiveDataTypes {
         int wideInt = b;
         long wideLong = i;
         double wideDouble = f;
+
+        //explicit conversion or type narrowing is when we convert a larger data type to a smaller data type
+        double narrowDouble = i;
+        System.out.println(narrowDouble);
+
+        System.out.println(Long.MAX_VALUE);//Long is wrapper class
+        System.out.println(Long.toBinaryString(Long.MAX_VALUE));
         System.out.println((char) 2);
     }
 }
