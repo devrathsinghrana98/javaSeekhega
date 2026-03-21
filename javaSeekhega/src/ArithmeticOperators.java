@@ -25,6 +25,8 @@ public class ArithmeticOperators {
         float n = 20.454545f;
         float p = z+n;
         System.out.println(p);
-
+        int v=4;
+        int j=3;
+        System.out.println(v++ + v - --j);// 4(value is used) + 5(value is incremented in post) - 2(value is decremented in pre) = 7
     }
 }
