@@ -1,8 +1,8 @@
 public class BitwiseOperators {
     public static void main(String[] args){
-        // BITWISE operators work for integral values - byte, short, int, long
+        //BITWISE operators work for integral values - byte, short, int, long
         //Bitwise operator works on single bit of binary number of 32 bits
-        // We can use INTEGER.toBinaryString() to print binary number
+        //We can use INTEGER.toBinaryString() to print binary number
         //When we print Binary number if all the preceding bits are 0 then it will not be printed
 
         //REQUIRES TWO OPERANDS
@@ -59,5 +59,9 @@ public class BitwiseOperators {
         System.out.println(Integer.toBinaryString(5>>>1));
         System.out.println(Integer.toBinaryString(-5));
         System.out.println(Integer.toBinaryString(-5>>>1));
+        System.out.println(Integer.toBinaryString(~2));
+        System.out.println(Integer.toBinaryString(~2));
+        System.out.println(~2);
+        System.out.println(Integer.toBinaryString(5>>>1));
     }
 }
