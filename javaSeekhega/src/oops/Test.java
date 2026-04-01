@@ -1,6 +1,7 @@
 package oops;
 
 public class Test {
+    //public static void main(String... args){//This signature is same as below here we use(...) variable arguments
     public static void main(String[] args){
         Animal animal = new Cat();
         animal.sound();//prints meow due to inheritance and polymorphism
