@@ -2,7 +2,10 @@ package com.javaseekhega.test;
 
 public class TestStudent {
     public static void main(String[] args){
-        Student student1 = new Student();
+        Student student1 = new Student("Jam");
+        Student student2 = new Student(23);
+        System.out.println(student1.getName());
+        System.out.println(student2.getAge());
         student1.setAge(-10);
         student1.setAge(121);
         student1.setAge(10);

@@ -5,6 +5,14 @@ public class Student {
     private String name;
     private int rollNumber;
 
+    public Student(String name){
+        this.name=name;
+    }
+
+    public Student(int age){
+        this.age=age;
+    }
+
     public int getAge() {
         return age;
     }
